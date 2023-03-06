@@ -69,3 +69,37 @@ with_fx(:reverb, room: 0.75, mix: 0.6, damp: 0.5) do
         current_note = norm_seq[idx]
         pulse_count = norm_pulses[idx]
         type = norm_types[idx]
+        is_slide = norm_slides[idx + 1]
+        case type
+        when :repeat
+          pulse_count.times do
+            control s, amp: 1, note: current_note
+            sleep dur / 2
+            control s, amp: 0
+            sleep dur / 2
+          end
+        when :hold
+          control s, amp: 1, note: current_note
+          sleep pulse_count * dur
+          control s, amp: 0
+        when :tick
+          control s, amp: 1, note: current_note
+          sleep dur / 2
+          control s, amp: 0
+          sleep (pulse_count * dur) - (dur / 2)
+        when :sleep
+          control s, amp: 0
+          sleep pulse_count * dur
+        end
+        
+        if is_slide then
+          control s, note_slide: dur / 2
+        else
+          control s, note_slide: 0
+        end
+      end
+    end
+  end
+end
+
+live_loop :drums, sync: :foo do
