@@ -103,3 +103,9 @@ with_fx(:reverb, room: 0.75, mix: 0.6, damp: 0.5) do
 end
 
 live_loop :drums, sync: :foo do
+  tick
+  sample :bd_haus if spread([4].choose, 16).look
+  sample :drum_cymbal_closed, hpf: cosr(120, 10, cosr(2, 1, 3)), amp: 0.75 if spread([11, 13].choose, [13, 15].choose).look
+  sample :drum_snare_hard, amp: 0.25, hpf: 90 if (spread 5, 11).look
+  sleep 0.125
+end
