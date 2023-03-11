@@ -103,3 +103,28 @@ evolving musical phrases on the fly."
 ### [fluX](https://github.com/pd3v/fluX)
 
 "A javascript engine for generative music in the browser"
+
+
+## Resources for Learning Music
+
+- [Learning Music by Ableton](https://learningmusic.ableton.com/index.html)
+
+
+## Samples
+
+### Ready-made Samples
+
+The following sites offer samples that are free to use (still, please check the licenses of the samples yourself). The
+list of sites was originally taken from [Sonic Pi's in_thread forum](https://in-thread.sonic-pi.net/t/free-sample-libraries-whats-out-there/297)
+
+- [https://hiphopdrumsamples.com/](https://hiphopdrumsamples.com/)
+- [http://www.musicradar.com/](http://www.musicradar.com/news/tech/free-music-samples-download-loops-hits-and-multis-627820)
+- [http://virtualplaying.com/](http://virtualplaying.com/)
+- [https://freesound.org/](http://virtualplaying.com/)
+- [http://bbcsfx.acropolis.org.uk](http://bbcsfx.acropolis.org.uk)
+- [https://www.conversesamplelibrary.com/](https://www.conversesamplelibrary.com/)
+
+
+## License
+
+All content in this repository is licensed under the [Attribution-ShareAlike 4.0 International License](LICENSE)
