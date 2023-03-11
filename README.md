@@ -72,3 +72,34 @@ want an extensive overview, or if you're looking for some kind of special tool/s
 - More focused on visuals than music
 
 ### [Fluxus](http://www.pawfal.org/fluxus/) (LISP family)
+
+- Actually a game engine that can produce audio and 3D Visuals in real time.
+- The code is always embedded on top of the performance with dynamic font ("Show us your screens!")
+
+### [Hydra](https://hydra-editor-v1.glitch.me/?)
+
+- "Hydra is a platform for live coding visuals, in which each connected browser window can be used as a node of a
+  modular and distributed video synthesizer."
+
+
+### Notable Mentions
+
+#### [Loop Drop](http://loopjs.com/)
+
+"Loop Drop is a looper, modular synth and sampler designed for improvisation and live performance."
+It's not controlled by source code, but rather with MIDI input devices or the keyboard
+
+#### [Jazzari](https://jackschaedler.github.io/jazzari/)
+
+Make Music with Javscript in your Browser and make three characters move
+
+### Generative Music
+
+### [midio](https://github.com/evangipson/midio)
+
+"midio is a web-based generative synthesizer "radio" which uses the Web Audio API and TypeScript to create intertwining,
+evolving musical phrases on the fly."
+
+### [fluX](https://github.com/pd3v/fluX)
+
+"A javascript engine for generative music in the browser"
