@@ -14,3 +14,6 @@ m = MandelHub.start(\myName);
 
 // Display the metronome
 m.gui
+
+// Change tempo:
+m.changeTempo(1.5)
