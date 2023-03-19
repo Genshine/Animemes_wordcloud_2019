@@ -6,4 +6,7 @@ If you use the portable version under Windows, the folder will be in the subfold
 
 In the same folder is also a file called `theme.properties`. Here you can tweak the colors of the Sonic-Pi UI.
 
-# Useful h
+# Useful helper methods
+
+```ruby
+# A scaled cosine over t
