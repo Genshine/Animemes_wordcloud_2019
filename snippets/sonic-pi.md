@@ -4,4 +4,6 @@ You can add a file named `init.rb` to your home directory under the folder `.son
 
 If you use the portable version under Windows, the folder will be in the subfolder `Data\-.sonic-pi` of the portable distribution.
 
-In the same folder is also a file called `theme.properties`. Here you can tweak 
+In the same folder is also a file called `theme.properties`. Here you can tweak the colors of the Sonic-Pi UI.
+
+# Useful h
