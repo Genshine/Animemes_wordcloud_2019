@@ -9,4 +9,7 @@ In the same folder is also a file called `theme.properties`. Here you can tweak 
 # Useful helper methods
 
 ```ruby
-# A scaled cosine over t
+# A scaled cosine over time
+# Very useful as an LFO
+# Example:
+# cosr(10, 5, 1) will cycle 
