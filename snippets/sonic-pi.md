@@ -12,4 +12,4 @@ In the same folder is also a file called `theme.properties`. Here you can tweak 
 # A scaled cosine over time
 # Very useful as an LFO
 # Example:
-# cosr(10, 5, 1) will cycle 
+# cosr(10, 5, 1) will cycle between 5 and 15 (from center-range to center+range)
