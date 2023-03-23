@@ -15,4 +15,8 @@ In the same folder is also a file called `theme.properties`. Here you can tweak 
 # cosr(10, 5, 1) will cycle between 5 and 15 (from center-range to center+range)
 # The lower the cycle value is, the slower is the cycle
 def cosr(center, range, cycle)
-  return Math.cos(vt * cycle) 
+  return Math.cos(vt * cycle) * range + center
+end
+
+# A scaled sine over time
+# V
