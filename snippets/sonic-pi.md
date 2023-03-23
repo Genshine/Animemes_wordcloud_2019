@@ -19,4 +19,6 @@ def cosr(center, range, cycle)
 end
 
 # A scaled sine over time
-# V
+# Very useful as an LFO
+# Example:
+# sinr(10, 5, 1)
