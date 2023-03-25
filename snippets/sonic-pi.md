@@ -21,4 +21,5 @@ end
 # A scaled sine over time
 # Very useful as an LFO
 # Example:
-# sinr(10, 5, 1) will cycle between 5 and 15 (from cente
+# sinr(10, 5, 1) will cycle between 5 and 15 (from center-range to center+range)
+# The lower 
