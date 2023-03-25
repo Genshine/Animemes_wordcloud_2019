@@ -22,4 +22,4 @@ end
 # Very useful as an LFO
 # Example:
 # sinr(10, 5, 1) will cycle between 5 and 15 (from center-range to center+range)
-# The lower 
+# The lower the cycle value is, the slower is the cy
