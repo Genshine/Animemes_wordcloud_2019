@@ -26,3 +26,34 @@ Execute it serveral times.
 Single sinewave duplicated (stereo) at 440 Hz.
 
 ```
+Ndef('test', { SinOsc.ar(440).dup }).play
+```
+
+
+Feel free to change the frequency and reexecute the line. And start exploring:
+
+```
+Ndef('test', { SinOsc.ar( LFNoise0.ar(8).range(400, 800) ).dup }).play
+```
+
+There's a lot of **UGens** to try out!
+
+To stop it:
+
+```
+Ndef('test').stop
+```
+
+## SynthDef (an instrument)
+
+```
+SynthDef('ping', { |out, freq, amp, sustain, pan|
+    var sound = SinOsc.ar(freq);
+    sound = sound * EnvGen.ar(Env.perc(0.01, sustain), doneAction: 2);
+    sound = Pan2.ar(sound, pan);
+    sound = sound * amp;
+    Out.ar(out, sound);
+}).add
+```
+
+Test the **SynthDef**
