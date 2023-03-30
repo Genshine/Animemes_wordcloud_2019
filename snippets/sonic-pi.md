@@ -24,4 +24,6 @@ end
 # sinr(10, 5, 1) will cycle between 5 and 15 (from center-range to center+range)
 # The lower the cycle value is, the slower is the cycle
 def sinr(center, range, cycle)
-  return Math.sin(vt * cycle) * range +
+  return Math.sin(vt * cycle) * range + center
+end
+```
