@@ -57,3 +57,41 @@ SynthDef('ping', { |out, freq, amp, sustain, pan|
 ```
 
 Test the **SynthDef**
+
+```
+(instrument: 'ping').play
+```
+
+## Pdef (a pattern player)
+
+```
+Pdef('pinger', Pbind(
+    \instrument, \ping,
+    \degree, Pseq([0, 1, 2, 3], inf),
+    \amp, 0.1,
+    \dur, Prand([0.25, 0.5], inf),
+)).play;
+```
+
+There's also a lot of Patterns to generate notes/values!
+
+To stop it:
+
+```
+Pdef('pinger').stop
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
